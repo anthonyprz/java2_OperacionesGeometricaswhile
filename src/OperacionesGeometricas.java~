@@ -19,8 +19,8 @@ public class OperacionesGeometricas {
 //	while
 	if(!opcion.equalsIgnoreCase("circulo")&&!opcion.equalsIgnoreCase("rectangulo")){
 
-			System.out.println("\nVa a ser que no has escrito bien...");
-			System.out.println("\nPrueba otra vez...");
+	//		System.out.println("\nVa a ser que no has escrito bien...");
+			System.out.println("\nintenta otra vez...");
 
 			opcion = sc.next();
 		}

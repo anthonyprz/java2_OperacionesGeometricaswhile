@@ -9,23 +9,22 @@ public class OperacionesGeometricas {
 
 		Scanner sc = new Scanner(System.in);
 
-	//	System.out.println("\nDe que figura quieres hacer los cálculos?");
 		System.out.println("\nEscribe `circulo´ o `rectangulo´`salir´...");
 
 		opcion = sc.next();
 
 	while(!opcion.equalsIgnoreCase("salir")) {
 
-//	while
+
 	if(!opcion.equalsIgnoreCase("circulo")&&!opcion.equalsIgnoreCase("rectangulo")){
 
-			System.out.println("\nVa a ser que no has escrito bien...");
-			System.out.println("\nPrueba otra vez...");
+	
+			System.out.println("\nintenta otra vez...");
 
 			opcion = sc.next();
 		}
 
-//	if (opcion== ("circulo")) {
+
 		if(opcion.equalsIgnoreCase("circulo")) {
 
 			Circulo cir = new Circulo(0);
@@ -41,7 +40,7 @@ public class OperacionesGeometricas {
 			System.out.println("El área del círculo es: " + area);
 			System.out.println("La circunferencia del círculo es: " +circunferencia);
 		}
-//	if (opcion == "rectangulo"){
+
 		if(opcion.equalsIgnoreCase("rectangulo")) {
 
 			double altura, anchura, perimetro, superficie;
